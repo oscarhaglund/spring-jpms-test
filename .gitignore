@@ -1,0 +1,40 @@
+# for details see https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files
+# basic ignore includes subfolders and subfiles:
+bin/
+build/
+.settings/
+target/
+.idea/
+
+# file extensions to be ignored
+*.o
+*.lo
+*.iml
+
+# local eclipse specific files, such that they cannot be changed by accident
+.classpath
+.project
+
+# ====== Default java GitIgnore: https://github.com/github/gitignore/blob/master/Java.gitignore =======
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
